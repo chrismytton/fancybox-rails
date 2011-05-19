@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 
 gem "rails", "3.1.0.beta1"
-gem "capybara", ">= 0.4.0"
+gem "capybara", :git => "https://github.com/jnicklas/capybara"
 gem "sqlite3"
 
 # Asset template engines

@@ -1,3 +1,15 @@
+GIT
+  remote: https://github.com/jnicklas/capybara
+  revision: aeb62d60634a1ed0b25afe278c32ccce64ee708b
+  specs:
+    capybara (1.0.0.beta1)
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      selenium-webdriver (~> 0.2.0)
+      xpath (~> 0.1.4)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -34,23 +46,12 @@ GEM
     arel (2.1.1)
     bcrypt-ruby (2.1.4)
     builder (3.0.0)
-    capybara (0.4.1.2)
-      celerity (>= 0.7.9)
-      culerity (>= 0.2.4)
-      mime-types (>= 1.16)
-      nokogiri (>= 1.3.3)
-      rack (>= 1.0.0)
-      rack-test (>= 0.5.4)
-      selenium-webdriver (>= 0.0.27)
-      xpath (~> 0.1.3)
-    celerity (0.8.9)
     childprocess (0.1.9)
       ffi (~> 1.0.6)
     coffee-script (2.2.0)
       coffee-script-source
       execjs
     coffee-script-source (1.1.0)
-    culerity (0.2.15)
     erubis (2.7.0)
     execjs (1.0.0)
       multi_json (~> 1.0)
@@ -120,7 +121,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  capybara (>= 0.4.0)
+  capybara!
   coffee-script
   jquery-rails
   rails (= 3.1.0.beta1)

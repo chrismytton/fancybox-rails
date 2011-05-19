@@ -5,7 +5,10 @@ Use [fancybox](http://fancybox.net/) with rails 3.1 asset pipeline.
 
 ## Installation
 
-Add the following lines to your applications `Gemfile`:
+This gem vendors jquery fancybox for Rails 3.1 and greater. The files
+will be added to the asset pipeline and available for you to use.
+
+First add the following lines to your applications `Gemfile`:
 
 ``` ruby
 gem 'jquery-rails'

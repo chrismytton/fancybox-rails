@@ -1,7 +1,11 @@
 require 'test_helper'
 
-class AssetTest < ActiveSupport::IntegrationCase
+class AssetTest < ActiveSupport::TestCase
   include Rack::Test::Methods
+
+  def app
+    Dummy::Application
+  end
 
   test "fancybox is included in application.js" do
     get "/assets/application.js"

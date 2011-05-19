@@ -1,5 +1,5 @@
-# Provide a simple gemspec so you can easily use your enginex
-# project in your rails apps through git.
+# -*- encoding: utf-8 -*-
+
 Gem::Specification.new do |s|
   s.name        = "fancybox-rails"
   s.authors     = ["Chris Mytton"]

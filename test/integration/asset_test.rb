@@ -9,12 +9,12 @@ class AssetTest < ActiveSupport::TestCase
 
   test "fancybox is included in application.js" do
     get "/assets/application.js"
-    assert last_response.body.include?('fancybox')
+    assert last_response.body.include?('FancyBox - jQuery Plugin')
   end
 
   test "fancybox css in included in application.css" do
     get "/assets/application.css"
-    assert last_response.body.include?('fancybox')
+    assert last_response.body.include?('FancyBox - jQuery Plugin')
   end
 
   test "fancybox assets are loaded" do

@@ -21,7 +21,7 @@ Now you need to edit your `app/assets/javascripts/application.js`
 file and add the following line:
 
 ``` javascript
-//= require jquery.fancybox
+//= require fancybox
 ```
 
 And then edit your `app/assets/stylesheets/application.css` file to
@@ -30,7 +30,7 @@ look something like:
 ``` css
 /*
  *= require_self
- *= require jquery.fancybox
+ *= require fancybox
  *= require_tree .
  */
 ```

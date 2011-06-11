@@ -1,6 +1,3 @@
-module Fancybox
-  module Rails
-    class Engine < ::Rails::Engine
-    end
-  end
+if defined? Rails && Rails::VERSION::MAJOR == 3 && Rails::VERSION::MINOR >= 1
+  require 'fancybox-rails/engine'
 end

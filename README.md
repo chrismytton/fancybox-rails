@@ -47,3 +47,9 @@ jQuery(function() {
   $("a.fancybox").fancybox();
 });
 ```
+
+## More information
+
+* [DHH's RailsConf 2011 talk on the rails 3.1 asset pipeline](http://www.youtube.com/watch?v=cGdCI2HhfAU)
+
+Copyright (c) Chris Mytton

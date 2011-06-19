@@ -21,6 +21,7 @@ Now you need to edit your `app/assets/javascripts/application.js`
 file and add the following line:
 
 ``` javascript
+//= require jquery
 //= require fancybox
 ```
 

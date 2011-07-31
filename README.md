@@ -1,6 +1,8 @@
 fancybox-rails
 ==============
 
+[![Build Status](http://travis-ci.org/hecticjeff/fancybox-rails.png)](http://travis-ci.org/hecticjeff/fancybox-rails)
+
 Use [fancybox](http://fancybox.net/) with rails 3.1 asset pipeline.
 
 ## Installation

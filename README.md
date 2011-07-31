@@ -44,7 +44,7 @@ With the gem installed and included in your asset manifests, you can now
 use fancybox as you normally would.
 
 ``` javascript
-jQuery(function() {
+$(document).ready(function() {
   $("a.fancybox").fancybox();
 });
 ```

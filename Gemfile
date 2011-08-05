@@ -17,6 +17,7 @@ gem 'jquery-rails'
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
-  gem 'capybara', '~> 1.0.0'
+  gem 'capybara'
+  gem 'akephalos'
   gem 'nokogiri'
 end

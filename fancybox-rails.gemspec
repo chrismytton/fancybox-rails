@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name        = "fancybox-rails"
-  s.authors     = ["Chris Mytton"]
+  s.authors     = ["Chris Mytton", "Les Hill", "Dennis Reimann"]
   s.email       = ["self@hecticjeff.net"]
   s.homepage    = "https://github.com/hecticjeff/fancybox-rails"
 

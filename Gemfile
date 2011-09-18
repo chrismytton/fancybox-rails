@@ -18,6 +18,6 @@ group :test do
   # Pretty printed test output
   gem 'turn', :require => false
   gem 'capybara'
-  gem 'akephalos'
+  gem 'capybara-webkit'
   gem 'nokogiri'
 end

@@ -4,7 +4,7 @@ class ActiveSupport::IntegrationCase < ActiveSupport::TestCase
   include Rails.application.routes.url_helpers
 
   def setup
-    Capybara.current_driver = :akephalos
+    Capybara.current_driver = :webkit
   end
 
   def teardown

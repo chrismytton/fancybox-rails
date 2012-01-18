@@ -64,6 +64,14 @@ Please be aware that the [license](http://fancyapps.com/fancybox/#license) has c
 you'll need to purchase one if you intend to use that fork for
 commercial purposes.
 
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Added some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
 ## More information
 
 * [Contributors](https://github.com/hecticjeff/fancybox-rails/contributors)

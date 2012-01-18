@@ -3,7 +3,13 @@ fancybox-rails
 
 [![Build Status](http://travis-ci.org/hecticjeff/fancybox-rails.png)](http://travis-ci.org/hecticjeff/fancybox-rails)
 
-Use [fancybox](http://fancybox.net/) with rails 3.1 asset pipeline.
+Use [fancybox 1.3.4](http://fancybox.net/) with rails 3.1 asset pipeline.
+
+If you want to use [fancyBox 2.0](http://fancyapps.com/fancybox/) then
+check out [@sverigemeny's fork](https://github.com/sverigemeny/fancybox-rails).
+Please be aware that the license has changed in the new version and
+you'll need to [purchase one]() if you intend to use it for commercial
+purposes.
 
 ## Installation
 
@@ -50,6 +56,15 @@ $(document).ready(function() {
   $("a.fancybox").fancybox();
 });
 ```
+
+## fancyBox 2.0
+
+If you want to use [fancyBox 2.0](http://fancyapps.com/fancybox/) then
+check out [@sverigemeny's fork](https://github.com/sverigemeny/fancybox-rails).
+
+Please be aware that the license has changed in the new version and
+you'll need to purchase one if you intend to use that fork for
+commercial purposes.
 
 ## More information
 

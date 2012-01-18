@@ -56,6 +56,10 @@ $(document).ready(function() {
 If you want to use [fancyBox 2.0](http://fancyapps.com/fancybox/) then
 check out [@sverigemeny's fork](https://github.com/sverigemeny/fancybox-rails).
 
+```ruby
+gem 'fancybox-rails', :git => 'https://github.com/sverigemeny/fancybox-rails'
+```
+
 Please be aware that the license has changed in the new version and
 you'll need to purchase one if you intend to use that fork for
 commercial purposes.

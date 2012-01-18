@@ -61,7 +61,7 @@ gem 'fancybox-rails', :git => 'https://github.com/sverigemeny/fancybox-rails'
 ```
 
 Please be aware that the [license](http://fancyapps.com/fancybox/#license) has changed in the new version and
-you'll need to purchase one if you intend to use that fork for
+you'll need to purchase one if you intend to use *that fork* for
 commercial purposes.
 
 ## Contributing

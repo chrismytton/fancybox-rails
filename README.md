@@ -1,7 +1,6 @@
 fancybox-rails
 ==============
 
-[![Build Status](http://travis-ci.org/hecticjeff/fancybox-rails.png)](http://travis-ci.org/hecticjeff/fancybox-rails)
 
 Use [fancybox 1.3.4](http://fancybox.net/) with rails 3.1 asset pipeline.
 
@@ -73,6 +72,12 @@ commercial purposes.
 5. Create new Pull Request
 
 ## More information
+
+### Build status
+
+[![Build Status](http://travis-ci.org/hecticjeff/fancybox-rails.png)](http://travis-ci.org/hecticjeff/fancybox-rails)
+
+### Useful links
 
 * [Contributors](https://github.com/hecticjeff/fancybox-rails/contributors)
 * [DHH's RailsConf 2011 talk on the rails 3.1 asset pipeline](http://www.youtube.com/watch?v=cGdCI2HhfAU)

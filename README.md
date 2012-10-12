@@ -53,7 +53,7 @@ $(document).ready(function() {
 ## fancyBox 2.0
 
 If you want to use [fancyBox 2.0](http://fancyapps.com/fancybox/) then
-check out [@sverigemeny's fork](https://github.com/sverigemeny/fancybox-rails).
+check out [fancybox2-rails](https://github.com/kyparn/fancybox2-rails).
 
 ```ruby
 gem 'fancybox-rails', :git => 'https://github.com/sverigemeny/fancybox-rails'

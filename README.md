@@ -1,6 +1,4 @@
-fancybox-rails
-==============
-
+# fancybox-rails
 
 Use [fancybox 1.3.4](http://fancybox.net/) with rails 3.1 asset pipeline.
 

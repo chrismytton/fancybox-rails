@@ -19,6 +19,5 @@ group :test do
   gem 'turn', :require => false
   gem 'minitest'
   gem 'capybara'
-  gem 'capybara-webkit'
-  gem 'nokogiri'
+  gem 'poltergeist'
 end

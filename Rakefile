@@ -57,9 +57,3 @@ def remote_version
   doc = Nokogiri::HTML(open($fancybox_feed))
   doc.css('entry:first title').text.match(/\d\.\d\.\d/)[0]
 end
-
-task :travis do
-  puts "Starting to run rake travis"
-  system("export DISPLAY=:99.0 && bundle exec rake")
-  raise "rake travis failed!" unless $?.exitstatus == 0
-end

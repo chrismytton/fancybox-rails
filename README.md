@@ -1,6 +1,6 @@
 # fancybox-rails
 
-Use [fancybox 1.3.4](http://fancybox.net/) with rails 3.1 asset pipeline.
+Use [fancybox 1.3.4](http://fancybox.net/) with rails 3.1+ asset pipeline.
 
 ## Installation
 
@@ -35,18 +35,32 @@ look something like:
  */
 ```
 
-That's it!
-
 ## Usage
 
 With the gem installed and included in your asset manifests, you can now
 use fancybox as you normally would.
 
+```erb
+<%= link_to 'Show help', help_path,  %>
+```
+
 ``` javascript
-$(document).ready(function() {
+jQuery(function() {
   $("a.fancybox").fancybox();
 });
 ```
+
+If you're using [CoffeeScript](http://coffeescript.org/) you can use the
+plugin in the same way.
+
+```coffeescript
+jQuery ->
+  $('a.fancybox').fancybox()
+```
+
+## Customization
+
+If you want to customize the fancybox assets you can 
 
 ## fancyBox 2.0
 

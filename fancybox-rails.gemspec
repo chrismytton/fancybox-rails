@@ -12,6 +12,4 @@ Gem::Specification.new do |s|
   s.version     = "0.1.4"
 
   s.add_dependency "railties", ">= 3.1.0"
-  s.add_development_dependency "bundler", ">= 1.0.0"
-  s.add_development_dependency "rails",   ">= 3.1.0"
 end

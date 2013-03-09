@@ -40,10 +40,6 @@ look something like:
 With the gem installed and included in your asset manifests, you can now
 use fancybox as you normally would.
 
-```erb
-<%= link_to 'Show help', help_path,  %>
-```
-
 ``` javascript
 jQuery(function() {
   $("a.fancybox").fancybox();
@@ -66,10 +62,6 @@ If you want to customize the fancybox assets you can
 
 If you want to use [fancyBox 2.0](http://fancyapps.com/fancybox/) then
 check out [fancybox2-rails](https://github.com/kyparn/fancybox2-rails).
-
-```ruby
-gem 'fancybox-rails', :git => 'https://github.com/sverigemeny/fancybox-rails'
-```
 
 Please be aware that the [license](http://fancyapps.com/fancybox/#license) has changed in the new version and
 you'll need to purchase one if you intend to use *that fork* for

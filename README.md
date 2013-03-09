@@ -56,7 +56,13 @@ jQuery ->
 
 ## Customization
 
-If you want to customize the fancybox assets you can 
+If you want to customize the fancybox assets you can copy the assets
+from the gem into your application's `lib/` directory.
+
+    $ rails generate fancybox_rails
+
+If you want to see what files will be created without actually creating
+them, run the generator with the `--pretend` option.
 
 ## fancyBox 2.0
 

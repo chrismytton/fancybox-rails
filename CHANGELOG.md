@@ -1,3 +1,7 @@
+# 0.2.0 / 2013-03-09
+
+* Shim `$.browser` if it's missing for jQuery 1.9 compatibility
+
 # 0.1.3 / 2011-08-11
 
 * Fixed asset paths for use in production environment

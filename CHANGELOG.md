@@ -1,3 +1,7 @@
+# 0.2.1 / 2013-03-09
+
+* Add generator for copying FancyBox assets for customization.
+
 # 0.2.0 / 2013-03-09
 
 * Shim `$.browser` if it's missing for jQuery 1.9 compatibility

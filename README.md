@@ -85,11 +85,11 @@ commercial purposes.
 
 ### Build status
 
-[![Build Status](https://travis-ci.org/hecticjeff/fancybox-rails.png?branch=master)](https://travis-ci.org/hecticjeff/fancybox-rails)
+[![Build Status](https://travis-ci.org/chrismytton/fancybox-rails.png?branch=master)](https://travis-ci.org/chrismytton/fancybox-rails)
 
 ### Useful links
 
-* [Contributors](https://github.com/hecticjeff/fancybox-rails/contributors)
+* [Contributors](https://github.com/chrismytton/fancybox-rails/contributors)
 * [DHH's RailsConf 2011 talk on the rails 3.1 asset pipeline](http://www.youtube.com/watch?v=cGdCI2HhfAU)
 
 Copyright (c) Chris Mytton

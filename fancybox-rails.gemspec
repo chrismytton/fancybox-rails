@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |s|
   s.name        = "fancybox-rails"
-  s.authors     = ["Chris Mytton", "Les Hill", "Dennis Reimann"]
-  s.email       = ["self@hecticjeff.net"]
-  s.homepage    = "https://github.com/hecticjeff/fancybox-rails"
+  s.authors     = ["Chris Mytton", "Les Hill", "Dennis Reimann", "Mattias Svedhem", "Greg Reinacker"]
+  s.email       = ["chrismytton@gmail.com"]
+  s.homepage    = "https://github.com/chrismytton/fancybox-rails"
 
-  s.summary     = "Use FancyBox with Rails 3.1+"
-  s.description = "This gem provides jQuery FancyBox for your Rails 3.1 application."
+  s.summary     = "Use FancyBox with the Rails asset pipeline"
+  s.description = "This gem provides jQuery FancyBox for your Rails application."
   s.files       = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README.md"]
   s.version     = "0.3.0"
 

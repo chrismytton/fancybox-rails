@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class FancyboxTest < ActiveSupport::IntegrationCase
+class FancyboxTest < ActionDispatch::IntegrationTest
   test "fancybox is loaded and works" do
     visit root_path
 

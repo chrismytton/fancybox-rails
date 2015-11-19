@@ -85,7 +85,7 @@ commercial purposes.
 
 ### Build status
 
-[![Build Status](https://travis-ci.org/chrismytton/fancybox-rails.png?branch=master)](https://travis-ci.org/chrismytton/fancybox-rails)
+[![Build Status](https://travis-ci.org/chrismytton/fancybox-rails.svg?branch=master)](https://travis-ci.org/chrismytton/fancybox-rails)
 
 ### Useful links
 

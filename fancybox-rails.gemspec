@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.summary     = "Use FancyBox with the Rails asset pipeline"
   s.description = "This gem provides jQuery FancyBox for your Rails application."
   s.files       = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
-  s.version     = "0.3.0"
+  s.version     = "0.3.1"
 
   s.add_dependency "railties", ">= 3.1.0"
 end

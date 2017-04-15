@@ -7,7 +7,7 @@
  * Copyright (c) 2008 - 2010 Janis Skarnelis
  * That said, it is hardly a one-person project. Many people have submitted bugs, code, and offered their advice freely. Their support is greatly appreciated.
  *
- * Version: 1.3.4 (11/11/2010)
+ * Version: 1.3.4 (11/11/2010) patched for compatibility with jQuery 1.9.x (03/2013)
  * Requires: jQuery v1.3+
  *
  * Dual licensed under the MIT and GPL licenses:
@@ -26,7 +26,7 @@
 
 		titleHeight = 0, titleStr = '', start_pos, final_pos, busy = false, fx = $.extend($('<div/>')[0], { prop: 0 }),
 
-		isIE6 = $.browser.msie && $.browser.version < 7 && !window.XMLHttpRequest,
+		isIE6 = navigator.userAgent.match(/msie/i) && navigator.userAgent.match(/6/) && !window.XMLHttpRequest,
 
 		/*
 		 * Private methods 
